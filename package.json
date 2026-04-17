@@ -1,0 +1,28 @@
+{
+  "name": "hockey-face",
+  "author": "zachthebeasty",
+  "version": "1.0.0",
+  "keywords": ["pebble-app", "game", "hockey"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Hockey",
+    "uuid": "3804a268-02c9-4bef-bfe8-b1ffa10dd664",
+    "sdkVersion": "3",
+    "enableMultiJS": false,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [],
+    "resources": {
+      "media": []
+    },
+    "capabilities": []
+  }
+}
