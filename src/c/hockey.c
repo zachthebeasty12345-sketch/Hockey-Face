@@ -215,7 +215,7 @@ static void draw_hud(GContext *ctx, GRect b) {
   GFont tiny = fonts_get_system_font(FONT_KEY_GOTHIC_14);
   graphics_context_set_text_color(ctx, GColorBlack);
 
-  char left[16], right[16];
+  char left[24], right[16];
   const int display_shot = g.shots_taken + 1 > MAX_SHOTS ? MAX_SHOTS : g.shots_taken + 1;
   snprintf(left,  sizeof(left),  "Shot %d/%d", display_shot, MAX_SHOTS);
   snprintf(right, sizeof(right), "Goals %d",   g.goals);
